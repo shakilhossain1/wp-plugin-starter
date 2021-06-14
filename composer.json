@@ -1,0 +1,17 @@
+{
+    "name": "shakil/wp-starter-plugin",
+    "description": "A simple Word filter plugin And all starter code for wordpress plugin",
+    "authors": [
+        {
+            "name": "Shakil Hossain",
+            "email": "sh9743441@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc",
+            "Services\\": "./Services"
+        }
+    }
+}
